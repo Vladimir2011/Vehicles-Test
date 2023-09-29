@@ -2,7 +2,9 @@
   <div class="container">
     <h1 class="heading-1">Это главная страница. Воспользуйтесь навигацией для перехода на другие страницы.</h1>
     <p class="heading-2">Спасибо за проявленный интерес к моей кандидатуре! Буду благодарен за обратную связь!</p>
-    <a class="heading-3" href="">Ссылка проекта на гитхабе</a>
+    <a class="heading-3" target="_blank" href="https://github.com/Vladimir2011/Vehicles-Test"
+      >Ссылка проекта на гитхабе</a
+    >
     <p class="text-2">
       Стек используемых технологий для этого проекта: HTML, CSS, SASS, Vue (Composition API), Nuxt, Pinia
     </p>
