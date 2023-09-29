@@ -15,13 +15,13 @@
         loading="lazy"
       />
 
-      <nuxt-img
+      <img
         v-else
         class="vehicle-item-info-image"
         width="260"
         height="135"
-        fit="cover"
         src="/images/auto-image.png"
+        alt="no-photo"
       />
 
       <div class="vehicle-item-info">
