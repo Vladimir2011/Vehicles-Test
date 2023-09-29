@@ -29,7 +29,7 @@
           <p class="header-tools-profile-name text-3">John Doe</p>
         </div>
         <div class="header-tools-localization">
-          <img src="images/svg/uk.svg" alt="uk-flag" />
+          <img src="/images/svg/uk.svg" alt="uk-flag" />
           <div class="header-tools-localization-select">
             <p class="header-tools-localization-name text-3">En</p>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

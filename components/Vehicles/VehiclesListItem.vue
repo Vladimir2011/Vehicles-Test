@@ -1,7 +1,7 @@
 <template>
   <div class="vehicle-item">
     <button class="vehicle-more-info-button">
-      <img src="@/images/svg/more-info.svg" alt="more-info-icon" />
+      <img src="/images/svg/more-info.svg" alt="more-info-icon" />
     </button>
     <div class="vehicle-item-info-block">
       <nuxt-img
@@ -29,7 +29,7 @@
           class="vehicle-item-info-amount text-4"
           :class="{ 'vehicle-item-info-amount-full': vehicle.uploads === vehicle.angles_count }"
         >
-          <img v-if="vehicle.uploads === vehicle.angles_count" src="@/images/svg/check.svg" alt="check-icon" />
+          <img v-if="vehicle.uploads === vehicle.angles_count" src="/images/svg/check.svg" alt="check-icon" />
           {{ vehicle.uploads }}/{{ vehicle.angles_count }}
         </p>
         <p class="vehicle-item-info-label text-3">3 days left</p>

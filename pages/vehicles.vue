@@ -23,7 +23,7 @@
         </div>
       </div>
       <AppButton>
-        <img src="@/images/svg/plus.svg" alt="plus-icon" />
+        <img src="/images/svg/plus.svg" alt="plus-icon" />
         <span class="button-span button-2">Add vehicle</span>
       </AppButton>
     </div>

@@ -5,7 +5,7 @@
       :disabled="vehiclesStore.getCurrentPage === 1"
       @click.prevent="vehiclesStore.loadVehicles(vehiclesStore.getPrevLink)"
     >
-      <img src="@/images/svg/prev-arrow.svg" alt="arrow-left" />
+      <img src="/images/svg/prev-arrow.svg" alt="arrow-left" />
     </button>
     <input
       min="1"
@@ -23,7 +23,7 @@
       :disabled="vehiclesStore.getCurrentPage === vehiclesStore.getLastPage"
       @click.prevent="vehiclesStore.loadVehicles(vehiclesStore.getNextLink)"
     >
-      <img src="@/images/svg/next-arrow.svg" alt="arrow-right" />
+      <img src="/images/svg/next-arrow.svg" alt="arrow-right" />
     </button>
   </div>
 </template>
