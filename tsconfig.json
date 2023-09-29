@@ -1,0 +1,18 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "noImplicitThis": false,
+    "noImplicitAny": true,
+    "types": ["@types/node", "@nuxt/types"],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "exclude": ["node_modules", ".nuxt", "dist"],
+    "pretty": true,
+    "target": "ES6"
+  }
+}

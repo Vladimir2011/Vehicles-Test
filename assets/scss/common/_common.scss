@@ -1,0 +1,67 @@
+@use "../variables" as *;
+
+html,body {
+  margin: 0;
+  height: 100%;
+  font-family: $fontFamilySansSerif;
+  color: $text_black;
+}
+
+.button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 36px 30px 45px 30px;
+}
+
+.formkit-inner {
+  .formkit-input {
+    padding-left: 16px;
+    height: 42px;
+    border: 1px solid $text_line_grey;
+    border-radius: 8px;
+    color: $text_black;
+    position: relative;
+    &:focus {
+      border: 1px solid $secondary_light_blue;
+      outline: 1px solid $secondary_light_blue;
+    }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+  .formkit-suffix-icon,
+  .formkit-select-icon {
+    position: absolute;
+    content: '';
+    top: 9px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.formkit-inner-search {
+  .formkit-input {
+    width: 354px;
+    padding-right: 40px;
+  }
+}
+
+.formkit-inner-select {
+  .formkit-input {
+    width: 85px;
+    appearance: none;
+  }
+}
+
