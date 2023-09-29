@@ -49,6 +49,9 @@ const searchInputValue: string | number = ref('')
 const perPageValue = ref(20)
 const debouncedSearchInputValue = refDebounced(searchInputValue, 600)
 
+// Загружаем машины
+await vehiclesStore.loadVehicles('')
+
 // Смотрим за результатом debounce функции выше и вызываем нужные нам методы / пишем логику
 watch(debouncedSearchInputValue, async () => {
   // Если длина вводимого значения больше 2, то делаем запрос
@@ -71,9 +74,6 @@ watch(perPageValue, async () => {
     await vehiclesStore.getSearchVehicles(searchInputValue.value)
   }
 })
-
-// Загружаем машины
-vehiclesStore.loadVehicles()
 </script>
 
 <style lang="scss" scoped>

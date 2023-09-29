@@ -9,8 +9,7 @@ export default defineNuxtConfig({
       '@nuxt/image',
       {
         quality: 80,
-        format: ['jpg', 'png', 'jpeg'],
-        dir: 'public/images'
+        format: ['jpg', 'png', 'jpeg']
       }
     ],
     '@nuxt/devtools',

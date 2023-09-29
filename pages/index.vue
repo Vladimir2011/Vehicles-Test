@@ -15,7 +15,7 @@
       Помимо этого можно выбрать какое кол-во мы хотим отображать на странице. Была еще мысль прикрутить локализацию,
       так как все настройки для этого готовы, но передумал из-за причин выше.
     </p>
-    <nuxt-img width="600" height="600" fit="contain" src="welcome.png" />
+    <nuxt-img width="600" height="600" fit="contain" src="/images/welcome.png" />
   </div>
 </template>
 

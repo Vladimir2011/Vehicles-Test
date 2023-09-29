@@ -15,7 +15,14 @@
         loading="lazy"
       />
 
-      <nuxt-img v-else class="vehicle-item-info-image" width="260" height="135" fit="cover" src="auto-image.png" />
+      <nuxt-img
+        v-else
+        class="vehicle-item-info-image"
+        width="260"
+        height="135"
+        fit="cover"
+        src="/images/auto-image.png"
+      />
 
       <div class="vehicle-item-info">
         <p class="vehicle-item-info-name">
