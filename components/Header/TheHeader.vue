@@ -25,7 +25,7 @@
           </svg>
         </button>
         <div class="header-tools-profile">
-          <nuxt-img width="46" height="46" fit="contain" src="/user.jpg" />
+          <nuxt-img width="46" height="46" fit="contain" src="user.jpg" />
           <p class="header-tools-profile-name text-3">John Doe</p>
         </div>
         <div class="header-tools-localization">
